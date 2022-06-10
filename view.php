@@ -16,7 +16,7 @@
             </div>
             <div class="mb-3">
                 <label for="port" class="form-label">Port</label>
-                <input type="number" class="form-control" id="port" name="port" placeholder="587" value="<?php echo $_ENV['MAIL_PORT']; ?>>
+                <input type="number" class="form-control" id="port" name="port" placeholder="587" value="<?php echo $_ENV['MAIL_PORT']; ?>">
             </div>
             <div class="form-check mb-3">
                 <input class="form-check-input" type="checkbox" value="true" id="auth" name="auth" checked>
@@ -26,11 +26,11 @@
             </div>
             <div class="mb-3">
                 <label for="username" class="form-label">Username</label>
-                <input type="text" required class="form-control" id="username" name="username" placeholder="betkwanzaao@gmail.com" value="<?php echo $_ENV['MAIL_USERNAME']; ?>>
+                <input type="text" required class="form-control" id="username" name="username" placeholder="betkwanzaao@gmail.com" value="<?php echo $_ENV['MAIL_USERNAME']; ?>">
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password" name="password" value="<?php echo $_ENV['MAIL_PASSWORD']; ?>>
+                <input type="password" class="form-control" id="password" name="password" value="<?php echo $_ENV['MAIL_PASSWORD']; ?>">
             </div>
 
             <div class="mb-3">
@@ -52,11 +52,11 @@
             </div>
             <div class="mb-3">
                 <label for="from" class="form-label">From Address</label>
-                <input type="email" required class="form-control" id="from" name="from" placeholder="name@example.com" value="<?php echo $_ENV['MAIL_FROM_ADDRESS']; ?>>
+                <input type="email" required class="form-control" id="from" name="from" placeholder="name@example.com" value="<?php echo $_ENV['MAIL_FROM_ADDRESS']; ?>">
             </div>
             <div class="mb-3">
                 <label for="name" class="form-label">From Name</label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Name" value="<?php echo $_ENV['MAIL_FROM_NAME']; ?>>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name" value="<?php echo $_ENV['MAIL_FROM_NAME']; ?>">
             </div>
             <div class="mb-3">
                 <label for="to" class="form-label">To Address</label>
